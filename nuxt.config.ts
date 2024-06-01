@@ -3,5 +3,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   plugins: [
     '~/plugins/axios'
-  ]
+  ],
+   modules: ['@nuxtjs/tailwindcss']
 })

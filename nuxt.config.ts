@@ -4,5 +4,13 @@ export default defineNuxtConfig({
   plugins: [
     '~/plugins/axios'
   ],
+  components
+  : [
+      {
+        path
+  : '~/components',
+        pathPrefix
+  : false,    },
+    ],
    modules: ['@nuxtjs/tailwindcss']
 })
